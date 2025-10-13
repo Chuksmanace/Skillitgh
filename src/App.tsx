@@ -5,6 +5,8 @@ import HomePage from "./Pages/HomePage.tsx";
 // import CoursesPage from "./Pages/CoursesPage.tsx";
 // import ContactPage from "./Pages/ContactPage.tsx";
 import Header from "./Components/Header.tsx";
+import Footer from "./Components/Footer.tsx";
+import ExploreCourses from "./Components/ExploreCourses.tsx";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/ContactPage" element={<ContactPage />} /> */}
         </Routes>
       </main>
+      <ExploreCourses />
+      <Footer />
     </Router>
   );
 }
