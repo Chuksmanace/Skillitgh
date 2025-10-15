@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 text-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-1">
           {/* Branding */}
           <div className="md:col-span-2">
             <div className="flex items-center gap-3">
@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
             </div>
 
             <p className="mt-4 text-sm text-gray-600 max-w-md">
-              Skillitgh exceeded all my expectations! The instructors were not only
-              experts, they made learning fun and practical. Join Skillitgh to
+              Skillitgh exceeded all my expectations! <br />The instructors were not only
+              experts, <br />they made learning fun and practical. <br />Join Skillitgh to
               build industry-ready skills.
             </p>
 
@@ -94,9 +94,9 @@ const Footer: React.FC = () => {
               <li className="max-w-xs">📍 5488 Snear Rd, 8745 doer Dr.</li>
             </ul>
 
-            <h4 className="font-semibold mt-6 mb-3">Subscribe Here</h4>
+            {/* <h4 className="font-semibold mt-6 mb-3">Subscribe Here</h4> */}
 
-            <form onSubmit={handleSubscribe} className="flex items-center gap-3">
+            {/* <form onSubmit={handleSubscribe} className="flex items-center gap-3">
               <input
                 type="email"
                 placeholder="Email..."
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
               >
                 ➤
               </button>
-            </form>
+            </form> */}
           </div>
         </div>
 

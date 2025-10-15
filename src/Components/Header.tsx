@@ -23,7 +23,7 @@ function Header() {
         </Link>
 
         {/*  Desktop Menu */}
-        <ul className="hidden md:flex gap-8 font-light text-1xl">
+        <ul className="hidden md:flex gap-8 font-semi-bold text-1xl">
           <li><Link to="/HomePage" className="hover:text-blue-600">Home</Link></li>
           <li><Link to="/AboutPage" className="hover:text-blue-600">About</Link></li>
           <li><Link to="/CoursesPage" className="hover:text-blue-600">Courses</Link></li>
